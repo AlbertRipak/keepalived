@@ -1,5 +1,5 @@
 global_defs {
-	router_id $(HOSTNAME)
+	router_id {{ inventory_hostname }}
 	enable_script_security
 	script_user root
 }
